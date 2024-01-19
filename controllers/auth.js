@@ -61,3 +61,5 @@ const getUser = async (req, res) => {
     return res.status(201).json({user});
 
 }   
+
+module.exports = {createUser, loginUser,getUser }
